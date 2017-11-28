@@ -5,13 +5,13 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
-public class pantalla3 extends Activity {
+public class ActivityOptionsPizza extends Activity {
     Spinner sp1,sp2,sp3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pantalla3);
+        setContentView(R.layout.activity_options_pizza);
         sp1=(Spinner)findViewById(R.id.spinner);
         sp2=(Spinner)findViewById(R.id.spinner2);
         sp3=(Spinner)findViewById(R.id.spinner3);

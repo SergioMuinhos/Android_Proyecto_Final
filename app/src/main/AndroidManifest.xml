@@ -19,8 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityPantalla2" />
-        <activity android:name=".pantalla3"/>
+        <activity android:name=".ActivityTypesPizza" />
+        <activity android:name=".ActivityOptionsPizza"/>
     </application>
 
 </manifest>
