@@ -6,12 +6,13 @@
     android:layout_height="match_parent"
     android:background="@android:color/background_light"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.dam2.pizzeria_android.ActivityPrincipal">
+    tools:context="com.example.dam2.pizzeria_android.ActivityPrincipal"
+    tools:showIn="@layout/activity_principal">
 
     <include
         android:id="@+id/toolbar_principal"
         layout="@layout/toolbar_principal"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="56dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,6 +48,7 @@
         android:layout_marginStart="76dp"
         android:layout_marginTop="20dp"
         android:background="@color/colorAccent"
+        android:onClick="cambiarCP"
         android:text="Buscar"
         android:textColor="@android:color/background_light"
         android:textSize="23sp"

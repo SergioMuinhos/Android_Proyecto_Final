@@ -1,7 +1,6 @@
 package com.example.dam2.pizzeria_android;
 
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 /**

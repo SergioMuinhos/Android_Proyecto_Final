@@ -12,6 +12,7 @@
         android:layout_height="101dp"
         android:layout_marginTop="76dp"
         android:backgroundTint="@color/colorAccent"
+        android:onClick="siguienteOptions"
         android:text="A TU GUSTO"
         android:textColor="@android:color/background_light"
         android:textSize="23sp"
